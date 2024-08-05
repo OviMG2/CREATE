@@ -1,0 +1,59 @@
+.buildingInformationContainer {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+.filtersWrapper,
+.mapWrapper,
+.infoWrapper {
+	padding: 30px;
+	width: 33.333%;
+}
+.infoWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.filterItem {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px;
+	width: 95%;
+	div {
+		width: 50%;
+	}
+}
+
+.filtersWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.select {
+	width: 100% !important;
+	height: 40px;
+}
+
+.buttonsWrapper {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+    width: 100%;
+}
+
+.titleWrapper {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 10px;
+}
+.title {
+	font-size: 55px;
+}
+
+.description {
+	width: 320px;
+	height: 40px;
+}

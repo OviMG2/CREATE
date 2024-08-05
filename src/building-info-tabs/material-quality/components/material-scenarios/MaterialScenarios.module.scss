@@ -1,0 +1,22 @@
+.dialogTitle {
+	background-color: #652cb3;
+	font-size: 20px;
+	height: 60px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+.buildingInfo {
+	background-color: #0ca789;
+	height: 130px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.dialogContent {
+	padding: 0px !important;
+}

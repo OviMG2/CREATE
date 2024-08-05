@@ -1,0 +1,52 @@
+.title {
+	font-size: 80px;
+}
+
+.description {
+	width: 350px;
+	height: 60px;
+}
+
+.titleWrapper {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 10px;
+}
+
+.container {
+	display: flex;
+	gap: 50px;
+}
+
+.projectsWrapper {
+	width: 45vw;
+	display: flex;
+	flex-wrap: wrap;
+	height: 350px;
+	overflow-y: scroll;
+	gap: 15px;
+}
+
+.infoWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 50px;
+    padding-top: 60px;
+	height: 350px;
+	font-size: 18px;
+}
+.buttonsWrapper {
+	height: 100px;
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+
+}
+
+
+.pageContainer {
+	padding: 0px 100px;
+	height: 100vh;
+}

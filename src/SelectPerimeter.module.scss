@@ -1,0 +1,53 @@
+.titleWrapper {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 10px;
+}
+.title {
+	font-size: 80px;
+}
+
+.description {
+	width: 350px;
+	height: 60px;
+}
+
+.selectPerimeterContainer {
+	height: 100vh;
+	padding: 0px 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.buttonsWrapper {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 10px;
+    margin-bottom: 50px;
+}
+.mapContainer{
+    display: flex;
+    width: 100;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.map{
+    border: 1px solid black;
+    height: 400px;
+    width: 90%;
+}
+
+.kmInput{
+    width: 50px;
+}
+.info{
+    padding: 20px;
+    font-size: 16px;
+}

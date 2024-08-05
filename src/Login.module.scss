@@ -1,0 +1,73 @@
+.title {
+	font-size: 70px;
+	height: 150px;
+}
+
+.description {
+	width: 350px;
+	height: 123px;
+	font-size: 15px;
+}
+//eventual mai modifica din height inaltimea unde sa apara text
+
+.titleWrapper {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 10px;
+}
+
+.loginContainer {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+}
+
+.signInButton {
+    background-color: #02b876 !important; /* Verde */
+    color: rgb(255, 255, 255) !important;
+    padding: 10px 20px !important;
+    margin-left: 10px !important; /* Adaugă o margine la dreapta */
+}
+
+.signUpButton {
+    background-color: #9c27b0 !important; /* Mov */
+    color: rgb(255, 255, 255) !important;
+    padding: 10px 20px !important;
+    margin-left: 450px; /* Adaugă o margine la stânga */
+}
+
+.forgotPassword {
+	color: #03a9f4; /* Albastru */
+	text-decoration: none;
+	margin-top: 10px;
+	display: block;
+	text-align: right;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Login.module.scss */
+
+.forgotPasswordLink {
+    font-size: 0.8rem; /* Mărimea textului */
+    margin-top: 0.5rem; /* Spațierea de sus */
+    text-decoration: none;
+    color: #1976d2; /* Culoarea link-ului */
+    // cursor: pointer;
+    display: inline-block;
+    // text-align: right;
+    width: 1150px;
+}
+
+.loginContainer {
+    /* Restul stilurilor tale existente */
+}
+
